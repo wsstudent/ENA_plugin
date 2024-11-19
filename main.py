@@ -27,7 +27,7 @@ class APIConfig:
 api_config = APIConfig(
     base_url="api.chatanywhere.tech",
     endpoint="/v1/chat/completions",
-    api_key="sk-nb6TMYvsD6KjllF5RC3i3Xl9tokeOe7rTdNMGnSmpI8ieog1",  # 替换为您的 API 密钥
+    api_key="your_api_key",  # 替换为您的 API 密钥
     allowed_params=["model", "messages"]  # 根据 API 支持的参数调整
 )
 
