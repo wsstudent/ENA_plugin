@@ -21,7 +21,7 @@ class APIConfig:
     def filter_params(self, params: Dict[str, Any]) -> Dict[str, Any]:
         """过滤传递给 API 的参数，仅保留允许的字段"""
         return {k: v for k, v in params.items() if k in self.allowed_params}
-#纯纯的冰啊,
+#纯纯的冰啊,属于是
 
 # 初始化 API 配置
 api_config = APIConfig(
